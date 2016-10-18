@@ -2,16 +2,16 @@
 ##  a jquery Plus for javascript to DataBind Template  
 
 /**************************************************************************************************************/<br />
-#####自定义的HTML Render 模板引擎<br />
-#####版本信息：v1.0.0.2  Creat By: Star Qin  20160929<br />
+####自定义的HTML Render 模板引擎<br />
+####版本信息：v1.0.0.2  Creat By: Star Qin  20160929<br />
 /**************************************************************************************************************/<br />
-#####功能：指定【dlRepeatorArtList】 装配容器的内容填充为相应的数据+模拟模板<br />
-#####调用样例： var isRendSucessed = $(&quot;#dlRepeatorArtList&quot;).handleTemplate(&quot;#tpl_ArtList&quot;, articleDataListSource);<br />
-#####参数：1.以【articleDataListSource】为数据源<br />
-#####参数：2.以【tpl_ArtList】为模板<br />
-#####参数：3.回调函数【CallBack_Function】<br />
-#####参数：4. 无参或0-1,html() 默认直接原样填充，2.向下Append(), 3.则向上PerAppend() 填充<br />
-#####返回： 套接HTML是否执行成功 true|| false<br />
+###### 功能：指定【dlRepeatorArtList】 装配容器的内容填充为相应的数据+模拟模板<br />
+###### 调用样例： var isRendSucessed = $(&quot;#dlRepeatorArtList&quot;).handleTemplate(&quot;#tpl_ArtList&quot;, articleDataListSource);<br />
+###### 参数：1.以【articleDataListSource】为数据源<br />
+###### 参数：2.以【tpl_ArtList】为模板<br />
+###### 参数：3.回调函数【CallBack_Function】<br />
+###### 参数：4. 无参或0-1,html() 默认直接原样填充，2.向下Append(), 3.则向上PerAppend() 填充<br />
+###### 返回： 套接HTML是否执行成功 true|| false<br />
 /**************************************************************************************************************/
 
 
@@ -35,13 +35,13 @@
     
 ## 3.给定一个渲染区域
 
-&lt;div class=&quot;list-box&quot;  id=&quot;rptRelationList&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;list-box&quot;  id=&quot;rptRelationCommodityList&quot;&gt;&lt;/div&gt;
 
   
 ## 4.调用Html Render 
 
 &lt;script  type=&quot;text/javascript&quot;&gt;<br />
-$(&quot;#rptRelationList&quot;).handleTemplate(&quot;#tpl_CommodityH5&quot;, evtData.RspData.CommodityList);<br />
+$(&quot;#rptRelationCommodityList&quot;).handleTemplate(&quot;#tpl_CommodityH5&quot;, evtData.RspData.CommodityList);<br />
 &lt;/script&gt;<br />
  
 
