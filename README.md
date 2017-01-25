@@ -61,4 +61,4 @@
 $(&quot;#rptRelationCommodityList&quot;).handleTemplate(&quot;#tpl_CommodityH5&quot;, evtData.RspData.CommodityList);<br />
 &lt;/script&gt;<br />
  
-
+## 5. OK  Fly 完成，等它执行吧
